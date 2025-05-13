@@ -1,0 +1,126 @@
+@font-face {
+    font-family:'nokiafc22' ;
+    src: url(fontes/nokiafc22.ttf) format(truetype);
+}
+@font-face {
+    font-family:'IDroid';
+    src: url(fontes/IDroid.otf)format(opentype);
+}
+body{
+    background-color: rgb(233, 226, 214);
+    text-align: justify;
+    
+}
+div#menu{
+    font-family: 'IDroid' , sans-serif;
+    background-image: linear-gradient(to bottom, rgba(11, 134, 62, 0.781), rgba(2, 39, 18, 0.863));
+    height: 204px;
+    width: 1890px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.103);    
+}
+h1#nomesite{
+    text-align: center;
+    color: white;
+    margin: 10px;
+    padding: 40px 10px 10px 10px;
+}
+p#subtitulo{
+    color: rgb(255, 255, 255);
+    margin: 10px;
+    padding: 10px 10px 26px 10px;
+    text-align: center;
+    font-size: 18px;
+}
+nav#menu > a{
+    color: rgba(24, 207, 137, 0.767);
+    text-decoration: none;
+    padding: 10px;
+    
+}
+nav#menu > a:hover{
+    background-color: rgb(6, 51, 6);
+  
+}
+div#principal{
+    
+    background-color: white;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.274);
+    margin: 10px 40px;
+    padding: 0px;
+    
+}
+main{
+    font-family: 'nokiafc22';
+    width: 1600px;
+    margin: 0px 120px;
+    
+    
+}
+h2{
+    color: rgba(9, 77, 37, 0.781);
+    padding: 15px;
+}
+p{
+    margin: 3px;
+    padding: 0px 30px 0px 30px;
+    color: black;
+    font-size: 15px;
+}
+p > a {
+    text-decoration: none;
+    color: rgba(9, 77, 37, 0.781);
+ 
+}
+p > a:hover{
+    background-color: rgba(14, 97, 14, 0.562);
+}
+
+h3{
+    
+    color: rgba(9, 77, 37, 0.781);
+    padding: 15px;
+    background-image: linear-gradient(to left, white,  rgba(23, 97, 54, 0.164), rgba(23, 97, 54, 0.534) );
+    
+}
+h4{
+    font-size: 1.5em;
+    color: black;
+    background-color:rgba(6, 129, 57, 0.836);
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px 10px 0px 10px;
+    text-align: center;
+}
+img{
+    height: 400px;
+    width: 800px;
+    margin: 10px 350px;
+}
+section{
+    background-color: rgba(5, 48, 23, 0.781) ;
+}
+div#lista{
+    background-color: rgba(14, 180, 83, 0.678) ;
+    margin: 0px 160px 10px 160px;
+    width: 1200px;
+    border-radius: 15px;
+}
+a.lista{
+    color: black;
+   
+}   
+a{
+    color: rgba(255, 255, 255, 0.986) ;
+    padding: 10px;
+}
+a:hover{
+    background-color: rgba(5, 77, 5, 0.795);
+}
+    footer{
+    text-align: center;
+    padding: 8px;
+    margin: 0px 30px;
+    background-color:rgba(6, 129, 57, 0.836) ;
+    width: 1540px;
+    height: 23px;
+}
