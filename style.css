@@ -6,69 +6,99 @@
     font-family:'IDroid';
     src: url(fontes/IDroid.otf)format(opentype);
 }
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
 body{
     background-color: rgb(233, 226, 214);
     text-align: justify;
+   
     
 }
-div#menu{
+header{
     font-family: 'IDroid' , sans-serif;
-    background-image: linear-gradient(to bottom, rgba(11, 134, 62, 0.781), rgba(2, 39, 18, 0.863));
-    height: 203px;
-    width: 1890px;
+    background-image: linear-gradient(to bottom, rgba(11, 134, 
+    62, 0.781), rgba(2, 39, 18, 0.863));
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.103);    
+    min-height: 150px;
+    padding: 0px;
+   
 }
-h1#nomesite{
+header h1{
     text-align: center;
     color: white;
-    margin: 10px;
     padding: 40px 10px 10px 10px;
+    margin-top: 2px;
+    font-size: 2.5em;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.651);
 }
-p#subtitulo{
+header p{
     color: rgb(255, 255, 255);
-    margin: 10px;
+    margin: auto;
     padding: 10px 10px 26px 10px;
     text-align: center;
     font-size: 18px;
+    text-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.76);
+    max-width: 600px;
 }
-nav#menu > a{
+nav{
+    padding: 15px;
+    
+}
+
+nav > a{
     color: rgba(24, 207, 137, 0.767);
     text-decoration: none;
     padding: 10px;
+    border-radius: 5px;
+    transition-duration: 0.5s;
     
 }
-nav#menu > a:hover{
+nav > a:hover{
     background-color: rgb(6, 51, 6);
   
 }
-div#principal{
-    
-    background-color: white;
-    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.274);
-    margin: 10px 40px;
-    padding: 0px;
-    
-}
+   
 main{
+    background-color: white;
+    box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.137);
     font-family: 'nokiafc22';
-    width: 1600px;
-    margin: 0px 120px;
-    
-    
+    max-width: 1000px;
+    min-width: 300px;
+    margin: auto;
+    margin-bottom: 20px;
+    padding:20px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px ;
+  
+}
+main img{
+    width: 100%;
+}
+main img.pequena{
+    max-width: 350px ;
+    display: block;
+    margin: auto;
 }
 h2{
     color: rgba(9, 77, 37, 0.781);
     padding: 15px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.199);
 }
 p{
-    margin: 3px;
-    padding: 0px 30px 0px 30px;
+    margin: 15px 0px;
     color: black;
     font-size: 15px;
+    text-align: justify;
+    text-indent: 20px;
+    line-height: 2em;
 }
 p > a {
     text-decoration: none;
-    color: rgba(9, 77, 37, 0.781);
+    color: rgba(2, 100, 45, 0.979);
  
 }
 p > a:hover{
@@ -79,48 +109,74 @@ h3{
     
     color: rgba(9, 77, 37, 0.781);
     padding: 15px;
-    background-image: linear-gradient(to left, white,  rgba(23, 97, 54, 0.164), rgba(23, 97, 54, 0.534) );
+    background-image: linear-gradient(to left, white,  rgba(23, 97, 54, 0.199), rgba(23, 97, 54, 0.534) );
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.103);
     
 }
-h4{
-    font-size: 1.5em;
+
+div.video{
+    background-color: rgba(18, 212, 99, 0.781);
+    margin-bottom: 20px;
+    margin:0px -20px 20px -20px ;
+    padding: 10px;
+    padding-bottom: 58%;
+    position: relative;
+   
+
+}
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    box-shadow:  2px 2px 2px 1px rgba(0, 0, 0, 0.199);
+}
+aside{
+    background-color:rgba(18, 212, 99, 0.781) ;
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.24);
+}
+aside ul{
+    list-style-type: square;
+    list-style-position: inside;
+    columns: 2;
+    font-size: 0.8em;
+    
+}
+aside > h4{
+    font-size: 1.2em;
     color: black;
     background-color:rgba(6, 129, 57, 0.836);
-    border-radius: 15px;
-    padding: 10px;
-    margin: 10px 10px 0px 10px;
+    border-radius: 10px 10px 0px 0px;
+    padding: 5px;
+    margin: -10px -10px 0px -10px;
     text-align: center;
 }
-img{
-    height: 400px;
-    width: 800px;
-    margin: 10px 350px;
-}
-section{
-    background-color: rgba(5, 48, 23, 0.781) ;
-}
-div#lista{
-    background-color: rgba(14, 180, 83, 0.678) ;
-    margin: 0px 160px 10px 160px;
-    width: 1200px;
-    border-radius: 15px;
-}
-a.lista{
-    color: black;
-   
-}   
-a{
-    color: rgba(255, 255, 255, 0.986) ;
-    padding: 10px;
-}
-a:hover{
-    background-color: rgba(5, 77, 5, 0.795);
-}
-    footer{
+
+footer{
+    font-family:'nokiafc22' ;
+    font-size: 0.9em;
     text-align: center;
-    padding: 8px;
-    margin: 0px 30px;
+    margin-left: -15px;
+    margin-top: 10px;
+    margin-bottom: -10px;
+    padding: 15px 15px 15px 15px;
     background-color:rgba(6, 129, 57, 0.836) ;
-    width: 1540px;
-    height: 23px;
+    border-radius: 10px;
+    width: 1000px;
+    height: 10px
+    
+    
+}
+footer > a{
+    color:rgba(3, 51, 25, 0.979) ;
+    padding: 6px;
+}
+
+footer > a:hover{
+    background-color: rgba(14, 97, 14, 0.562);
+    padding: 6px;
 }
